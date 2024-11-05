@@ -1,0 +1,23 @@
+{
+    box {
+        border: 2px dashed gray;
+        padding: 5px;
+    
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    
+    .item-1 {
+        background-color: tomato;
+    }
+    
+    .item-2 {
+        background-color: yellowgreen;
+    }
+    
+    .item-3 {
+        background-color: aquamarine;
+    }
+}
