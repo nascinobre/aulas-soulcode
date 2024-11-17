@@ -61,7 +61,7 @@ let a = 17, b = 24, c = 2
 console.log( (c,a, b),(((a))), (b),);
 
 a> b > c
-if(a > b) 
+    if(a > b) 
     if (a>c && b > c){
         console.log(a, ">", b, ">", c); 
     } else { console.log(c, ">" ,a, ">", b)
