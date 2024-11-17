@@ -110,7 +110,7 @@ function verifyOperator(operatorValue) {
 }
 
 function calculateArray(exp) {
-  exp = exp.toString().split("+");
+  exp = exp.toString().split("+"); 
   for (a = 0; a < exp.length; a++) {
     exp[a] = exp[a].split("-");
     for (b = 0; b < exp[a].length; b++) {
